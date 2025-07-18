@@ -6,6 +6,10 @@ on:
 
 jobs:
   call-workflow:
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
     uses:  melissafilomeno/gh-actions-poc/.github/workflows/test.yml@main
     with:
       input_name: hello_world
