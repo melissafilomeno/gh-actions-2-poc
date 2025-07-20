@@ -19,3 +19,9 @@
 - Click 'Run workflow'
 - Refresh page
 - Latest run appears in the first entry in 'workflow runs' table
+- After run completes, check the following :
+  - Branch 'new_branch' created
+  - Pull Request created with title='pr title' and body='pr body'
+  - Commit 'write output file' added for file name='output.txt'
+  - output.txt file contains result of gh-actions-poc/gh-actions-script.py
+  - Confirm all tabs and new lines are preserved in output.txt
