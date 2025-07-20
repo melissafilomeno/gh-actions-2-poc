@@ -3,6 +3,9 @@
 - Refer to [gh-actions-poc](https://github.com/melissafilomeno/gh-actions-poc) for details of workflow processing
 
 ## Pre-requisites :
+- Enable actions and reusable workflows to be used from another repository
+  - Settings > Actions > General > Actions Permissions :
+    - Enable 'Allow all actions and reusable workflows' 
 - Enable workflow permissions to GITHUB_TOKEN to create Pull Requests
   - Settings > Actions > General > Workflow permissions :
     - Enable 'Read and write permissions'
